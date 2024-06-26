@@ -1,0 +1,81 @@
+.click-play-block {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.click-play {
+    position: absolute;
+    left: 9%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.click-play svg {
+    width: 159px;
+    fill: #fff;
+    transition: .2s;
+}
+
+@media(max-width: 1260px) {
+    .click-play {
+        width: 20%;
+    }
+    .click-play svg {
+        width: 100%;
+    }
+}
+
+.click-play-block:hover svg {
+    fill: #ffe841;
+    transition: .2s;
+}
+
+.video-responsive {
+    position: relative;
+    height: 450px;
+}
+
+@media(max-width: 1260px) {
+    .video-responsive {
+        height: auto;
+    }
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-desc {
+    min-height: 450px;
+}
+
+@media(max-width: 1260px) {
+    .video-desc {
+        min-height: auto;
+    }
+}
+
+.btns .btn-block {
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.btns .btn-block:last-child {
+    margin-right: 0;
+}
+
+.video-btns {
+    padding-top: 20px;
+}
+
+@media(max-width: 490px) {
+    .btns .btn, .btns .btn-block {
+        width: 100%;
+        margin-right: 0;
+    }
+}

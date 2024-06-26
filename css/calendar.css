@@ -1,0 +1,24 @@
+
+/*calendar begin*/
+.ui-datepicker {
+    position: absolute;
+}
+
+.datepicker {
+    z-index: 7000 !important;
+}
+
+.datepicker--nav {
+    margin-top: 0;
+}
+
+.datepicker--cell.-selected-, .datepicker--cell.-selected-.-current- {
+    color: #fff;
+    background: #cf1f1f !important;
+}
+
+.datepicker--cell.-current-, .datepicker--day-name {
+    color: #cf1f1f !important;
+}
+/*calendar end*/
+  

@@ -1,0 +1,32 @@
+.warranty-text {
+    flex: 1 1;
+    padding-right: 30px;
+}
+
+.warranty2 {
+    max-height: 240px;
+}
+
+@media(max-width: 1260px) {
+    .warranty-text {
+        width: 100%;
+        flex: none;
+        padding-right: 0;
+        padding-bottom: 25px;
+    }
+    .warranty2 {
+        position: absolute;
+        top: 110%;
+        max-height: 200px;
+    }
+}
+
+@media(max-width: 992px) {
+    .warranty2 {
+        position: relative;
+        top: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        max-height: 150px;
+    }
+}

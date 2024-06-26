@@ -1,0 +1,270 @@
+.footer-top, .footer-bot {
+    position: relative;
+    z-index: 1000;
+}
+
+.footer-bot {
+    background-color: #fff;
+}
+
+.footer-col {
+    border-right: 1px solid rgba(255,255,255,0.5);
+    padding: 0 40px;
+    padding-bottom: 25px;
+}
+
+@media(max-width: 1260px) {
+    .footer-col {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer-col a {
+        display: block;
+    }
+}
+
+.footer-col:first-child {
+    padding-left: 0;
+}
+
+.footer-col:last-child {
+    border-right: 0;
+    padding-right: 0;
+}
+
+footer .logo img {
+    max-height: 65px;
+}
+
+@media(max-width: 768px) {
+    footer .logo img {
+        max-height: 52px;
+    }
+}
+
+.footer-col h6 {
+    text-align: left;
+}
+
+@media(max-width: 450px) {
+    .footer-col h6 {
+        text-align: center;
+    }
+    .footer-col2 li {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.lines-bord .contact-line {
+    border-top: 1px solid rgba(255,255,255,0.5);
+    padding: 16px 0;
+}
+
+.lines-bord .contact-line:last-child {
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+.lines-bord .contact-line p {
+    line-height: 1.5;
+}
+
+.footer-col1 {
+    width: 20%;
+}
+
+.footer-col2 {
+    width: 25%;
+}
+
+.footer-col3 {
+    width: 33%;
+}
+
+.footer-col4 {
+    width: 22%;
+}
+
+@media(max-width: 1260px) {
+    .footer-col2 {
+        width: 27%;
+    }
+    .footer-col3 {
+        width: 27%;
+    }
+    .footer-col4 {
+        width: 26%;
+    }
+    .phone-line {
+        align-items: flex-start;
+    }
+    .phone-line img {
+        position: relative;
+        top: 5px;
+    }
+}
+
+@media(max-width: 992px) {
+    .footer-col {
+        width: 33.333%;
+    }
+    .footer-col1 {
+        width: 100%;
+        border-right: 0;
+    }
+    .logo-block {
+        justify-content: center;
+    }
+}
+
+.colon {
+    display: none;
+}
+
+@media(max-width: 768px) {
+    .footer-col {
+        width: 50%;
+    }
+    .footer-col3 {
+        border-right: 0;
+    }
+    .footer-col1, .footer-col4 {
+        width: 100%;
+    }
+    .colon {
+        display: inline-block;
+    }
+    .footer-col4 br {
+        display: none;
+    }
+    .footer-col4 {
+        border-top: 1px solid rgba(255,255,255,0.5);
+        padding-top: 30px;
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+}
+
+.footer-col {
+    margin-top: 30px;
+}
+
+.footer-cols {
+    margin-top: -30px;
+}
+
+@media(max-width: 450px) {
+    .footer-col {
+        width: 100%;
+        border-right: 0;
+        padding: 30px 0;
+        border-top: 1px solid rgba(255,255,255,0.5);
+        margin-top: 0;
+    }
+    .footer-col4 {
+        padding-bottom: 0;
+    }
+    .phone-line a {
+        display: inline-block;
+    }
+    .footer-col1 {
+        border-top: 0;
+        padding-top: 0;
+    }
+    .footer-cols {
+        margin-top: 0;
+    }
+}
+
+
+footer a, .contact-line a {
+    font-family: 'Helveticaneuecyr-Roman';
+}
+
+.contact-line .ff-bold {
+    font-family: 'Helveticaneuecyr-Bold';
+}
+
+.footer-top li {
+    margin-top: 9px;
+}
+
+.footer-top li:first-child {
+    margin-top: 0;
+}
+
+.contact-icon {
+    width: 19px;
+}
+
+.contact-icon img {
+    margin: 0 auto;
+}
+
+.hours-line img {
+    position: relative;
+    top: 2px;
+}
+
+.col-add-text {
+    padding-left: 33px;
+}
+
+.footer-col-text {
+    margin-top: 25px;
+}
+
+.footer-bot {
+    padding: 105px 0 50px 0;
+}
+
+@media(max-width: 992px) {
+    .footer-bot {
+        padding-top: 80px;
+    }
+}
+
+@media(max-width: 768px) {
+    .footer-bot {
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+}
+
+.footer-bot p, .footer-bot a {
+    font-size: 16px;
+}
+
+.footer-bot li {
+    position: relative;
+    margin-top: 20px;
+}
+
+.footer-bot li:after {
+    content: '|';
+    color: #838383;
+    margin: 0 8px;
+}
+
+.footer-bot li:last-child:after {
+    display: none;
+}
+
+.footer-bot ul {
+    margin-top: -20px;
+}
+
+.footer-bot p {
+    color: #838383;
+}
+
+@media(max-width: 480px) {
+    .footer-bot li {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-bot li:after {
+        display: none;
+    }
+}
+
